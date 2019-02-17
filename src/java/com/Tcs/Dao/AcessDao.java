@@ -32,7 +32,7 @@ public class AcessDao {
 
     public static boolean Login(String email, String password) {
 
-        if (email.equals("demo@tcs.com") && password.equals("Tcs#1234") && Login_check()) {
+        if (email.equals("demo@gmail.com") && password.equals("Pradyumna") && Login_check()) {
             return true;
         } else {
             return false;
